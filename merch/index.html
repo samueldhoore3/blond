@@ -10,6 +10,8 @@
 
         /*
         .wrapper{background-color: blue;}
+        .content{background-color: red;}
+
         */
 
 
@@ -19,31 +21,40 @@
         }
 
         .wrapper {
-            position: absolute;
-            height:100vh;
+            display: flex;
+            justify-content: center;
+            height:90vh;
             width: 100%;
-            outline: .1rem solid white;
-            outline-offset: -1rem;
+        }
+
+        .content {
+            width: 20%;
+            margin:auto;
+        }
+
+        img {
+            width: 100%;
         }
 
         /* MOBILE */
         @media only screen and (max-width:769px){
+                
+            .content {
+                width: 80%;
+            }
             
-            body {
-                background-color: red;
-            }
-
-            .wrapper {
-                outline-offset: -3rem;
-            }
         }
-    
+
     </style>
 </head>
 <body>
 
     <div class="wrapper">
-        
+
+        <div class="content">
+            <img src="https://dl.dropbox.com/s/9s969ia3kuu8qs0/blond_logo.png?dl=1"/>
+        </div>
+
     </div>
     
 </body>
