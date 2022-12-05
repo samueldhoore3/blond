@@ -1,0 +1,59 @@
+/* GENERAL */
+body {
+    font-family: courier new;
+    margin: 0;
+}
+
+tr {
+    color: blue;
+    text-decoration: none;
+}
+
+tr:hover {
+     color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+td {
+    padding-right: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.content {
+    margin: auto;
+
+}
+
+/* MOBILE */
+@media only screen and (max-width:769px){
+
+.content {
+    width: 75%;
+    margin-top:20vh;
+}
+
+
+
+
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width:769px){
+
+.wrapper {
+    height: 100vh;
+}
+
+.content {
+    width: 50%;
+    margin-top:10vh;
+}
+
+}
