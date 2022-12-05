@@ -1,0 +1,249 @@
+@media only screen and (max-width:769px){
+/* MOBILE VERSION */
+/********************************************************/
+    /* General m */
+    /********************************************************/
+    
+        html {
+            scroll-padding-top: 200%; /* sticky nav won't hide stuff */
+        }
+
+        body {
+            margin: 4rem 0 0 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        article {
+            margin: 2rem;
+        }
+    
+    /********************************************************/
+    /* Hamburger m */
+    /********************************************************/
+    
+        .hamburger {
+            position: sticky;
+            top: 0;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #0497f6;
+            position: relative;
+        }
+
+        .topnav #myLinks {
+            display: none;
+        }
+
+        #myLinks a {
+            padding: 1rem 4rem;
+        }
+
+        .topnav a {
+            color: white;
+            padding:1.5rem;
+            text-decoration: none;
+            font-size: 1.5rem;
+            display: block;
+        }
+
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .topnav .active {
+            background-image: url(https://dl.dropbox.com/s/sv293wg83qa5adx/blond_logo.png?dl=1);
+            background-size: 13rem;
+            background-repeat: no-repeat;
+            background-color: black;
+            background-position: center;
+            color: transparent;
+            background-position-x: 2rem;
+        }
+        
+        .topnav a.active:hover {
+            color: transparent;
+        }
+
+
+    /********************************************************/
+    /* articles m */
+    /********************************************************/
+
+        #bioshort{
+            text-align: right;
+            margin-right: 3rem;
+        }
+
+        #bioshort p {
+            line-height: 1.4rem;
+        }
+
+        #bioshort span.instrument {
+            font-size: 1.1rem;
+            text-transform: lowercase;
+            margin-top: -0.4rem;
+            display: block;
+            font-weight: lighter;
+            
+        }
+        
+        #knack  {
+            text-align: center
+        }
+
+    /********************************************************/
+    /* photo m */
+    /********************************************************/
+
+        #heads, #nekka, #food {
+            margin:0;
+        }
+
+        #heads img, #nekka img, #food img {
+            width: 100%;
+        }
+
+    /********************************************************/
+    /* video m */
+    /********************************************************/
+        
+        article#nieuwesingle {
+            margin: 1rem 0 0 0;
+        }
+        
+        #nieuwesingle iframe {
+            width: 100%;
+            height: 15rem;
+        }
+    
+    /********************************************************/
+    /* concerts m */
+    /********************************************************/
+    
+        #concerts h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 1rem;
+            margin-bottom: -1rem;
+        }
+        
+        #concerts {
+            text-align: center;
+        }
+        
+        #concerts table {
+            width: 100%;
+        } 
+        
+        #concerts td a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 3rem 0rem;
+        }
+        
+        #concerts .date {
+            font-size: 1.3rem;
+        
+        }
+        
+        #concerts .location {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        #concerts .price {
+            font-style: italic;
+        }
+        
+        #concerts tr:first-child td{
+            border: none;
+        }
+        
+        #concerts td {
+            border-top: dotted white 0.5rem;
+            
+        }
+
+    /********************************************************/
+    /* socials m */
+    /********************************************************/
+    
+        article#socials {
+            margin-top: 0;
+        }
+        
+        #email a {
+            color: white;
+            text-decoration: none;
+            padding: 1.5rem 3rem 3rem 3rem;
+            width: 100%;
+            text-align: center;
+            display; block;
+        }
+
+        #email a:hover {
+            color: whitesmoke;
+            text-decoration: underline;
+            text-decoration-color: red;
+            text-decoration-style: wavy;
+            display: block;
+        }
+
+        #socials img {
+            width: 20%;
+            height: 4rem;
+        
+        }
+        
+        #socials div {
+            justify-content: space-around;
+            display: flex;
+        }
+
+        #facebook, #spotify, #instagram{
+            cursor: pointer;
+        } 
+    
+    /********************************************************/
+    /* footer m */
+    /********************************************************/
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        footer a {
+            color: whitesmoke;
+            text-decoration: underline;
+            text-decoration-color: red;
+            text-decoration-style: wavy;
+            display: block;
+        }
+        
+        footer  a:hover {
+            text-decoration: line-through;
+            text-decoration-color: red;
+            text-decoration-thickness: 5px;
+        }
+}
+
+@media only screen and (min-width:769px){
+/* DESKTOP VERSION */
+/********************************************************/
+}
