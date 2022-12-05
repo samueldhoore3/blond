@@ -53,10 +53,14 @@ img {
             height: 4rem;
         }
 
+        #burger {
+            width: 1.5rem;
+        }
+
         .hamburger {
             position: fixed;
             top: 0rem;
-            right: 0rem;
+            right: 1rem;
             cursor: pointer;
             font-size: 3rem;
             color: white;
